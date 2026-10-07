@@ -1,0 +1,12 @@
+dist/
+build/
+__pycache__/
+*.pyc
+*.pdb
+*.log.txt
+tests/*-results.json
+Install-diagnostic-*.json
+Physical-JIS-report-*.json
+*.vhd*
+*.iso
+*.clixml

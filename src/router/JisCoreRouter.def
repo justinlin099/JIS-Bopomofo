@@ -1,0 +1,4 @@
+LIBRARY JisCoreRouter
+EXPORTS
+ DllGetClassObject
+ DllCanUnloadNow

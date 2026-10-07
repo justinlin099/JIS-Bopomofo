@@ -1,0 +1,16 @@
+JIS Bopomofo
+Copyright (c) 2026 jis-bopomofo contributors
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This project's own code and documentation are free software: you can
+redistribute them and/or modify them under the terms of the GNU General
+Public License as published by the Free Software Foundation, either
+version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See LICENSE.
+
+Microsoft Windows components and third-party materials remain subject
+to their own rights and licenses; see THIRD_PARTY_NOTICES.md.
+The Windows release includes project source and build instructions in source/.

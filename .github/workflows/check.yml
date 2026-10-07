@@ -1,0 +1,35 @@
+name: Repository checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.9', '3.13']
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verify repository
+        run: python tools/verify.py
+      - name: Pure scan-code map tests
+        shell: powershell
+        run: ./tests/Test-SpaceMap.ps1
+      - name: Installer compatibility guard tests
+        shell: powershell
+        run: ./tests/Test-CompatibilityGuards.ps1
+      - name: Package without installation
+        run: python tools/package.py
+      - name: Check release packages
+        run: python tools/check_package.py
+      - uses: actions/upload-artifact@v7
+        with:
+          name: release-files-${{ matrix.python }}
+          path: dist/*
+          if-no-files-found: error

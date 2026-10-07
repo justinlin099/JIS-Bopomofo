@@ -1,0 +1,77 @@
+{
+  "basis": "Accepted v2 sources; bytes preserved during project organization",
+  "files": [
+    {
+      "file": "windows/Build-Table7-Copy.ps1",
+      "sha256": "f9aac7505526ae3e835a59b3863557f541e6d8d0f17e79b6df488a501a86f2f5"
+    },
+    {
+      "file": "windows/Check-Install.ps1",
+      "sha256": "7adc91889cdf7fbd3b8248228b70725292bfb1dbd1c43e27371177be6f4522b8"
+    },
+    {
+      "file": "windows/Check-Installed.ps1",
+      "sha256": "15d3e1b44e0a87f5a95fab90ba920a65dad0259a679d8fc745d10223fcaca46e"
+    },
+    {
+      "file": "windows/Check.cmd",
+      "sha256": "25c075d7d7cf3a83be909c7ec619fb59baff6bfa14852f8fbc86362e8a4ced26"
+    },
+    {
+      "file": "windows/Diagnose.cmd",
+      "sha256": "c294bdb0458e9d8b7e2532f379f2da2be7467f2a083097b08822c8b010c71a1f"
+    },
+    {
+      "file": "windows/Install-Spaces.cmd",
+      "sha256": "798dd0266d478b42951d8870f9a0f0177f61dee93993b4822d6814884e6eece9"
+    },
+    {
+      "file": "windows/Install.cmd",
+      "sha256": "45e02a472333d2c2b397fd0d0fa8b546a281da494857dd685eee96223e489347"
+    },
+    {
+      "file": "windows/JisCoreRegistry.cs",
+      "sha256": "eccb4bb37d8eb112c404b3f0a10f486172282c590e166b26ecae233f9bb47e5c"
+    },
+    {
+      "file": "windows/Manage-Jis.ps1",
+      "sha256": "f1b5971953f3d248ce90ad4ef9306376fb1e22961b1c2325552f40c4861a65bd"
+    },
+    {
+      "file": "windows/Restore-Spaces.cmd",
+      "sha256": "602bb63eeb808e084086d535b6e9fe2c73d66ffc7af14c7a5a9ef48432ca6791"
+    },
+    {
+      "file": "windows/Restore.cmd",
+      "sha256": "27c91f27d6fa626a586a0a339e26d62e6cec8cb258da6ef858c6c7d01958c7ff"
+    },
+    {
+      "file": "windows/Run.ps1",
+      "sha256": "a176114bdfc21d278fed65799a24d1d8031f0f06971e4593bda39f25296469c3"
+    },
+    {
+      "file": "windows/SpaceKeys.ps1",
+      "sha256": "7c73d7df89c74b7f87d19f73b7623db04ee282b9e1e8b93a81bbf5eb0b08e7ca"
+    },
+    {
+      "file": "windows/table7-build-recipes.json",
+      "sha256": "05dfc2f17345f70d44d36f587ba82147f4bd1c8784a5f7284d802dd8594f172c"
+    },
+    {
+      "file": "windows/Test-results.txt",
+      "sha256": "8a59e5b6a93aea810b3befac5bf8e90f8a047de640275d09ee805682585707e0"
+    },
+    {
+      "file": "src/router/Build-Router.ps1",
+      "sha256": "1ecea3d964b940515e7647430869c1946a36bbb86a563d3e1f345c177574f082"
+    },
+    {
+      "file": "src/router/JisCoreRouter.c",
+      "sha256": "9d28d4d440aeb02113140518dcb49f416e7e38b00487d44083cb72976c84c042"
+    },
+    {
+      "file": "src/router/JisCoreRouter.def",
+      "sha256": "32b54df5b3cec271e0f32d8719b0eeb1796e7102373d2638952d14f380163403"
+    }
+  ]
+}

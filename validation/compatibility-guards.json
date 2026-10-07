@@ -1,0 +1,182 @@
+﻿{
+    "TestType":  "Extracted pure installer guards; not OS integration tests",
+    "Cases":  25,
+    "AllPassed":  true,
+    "Results":  [
+                    {
+                        "Name":  "Build-7601",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-9600",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-17763",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-18363",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-19041",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-19043",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-19044",
+                        "ExpectedReject":  false,
+                        "Rejected":  false,
+                        "Passed":  true,
+                        "Message":  null
+                    },
+                    {
+                        "Name":  "Build-19045",
+                        "ExpectedReject":  false,
+                        "Rejected":  false,
+                        "Passed":  true,
+                        "Message":  null
+                    },
+                    {
+                        "Name":  "Build-20348",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-22000",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-22621",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-22631",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-26100",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Build-26200",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Non-10-major",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires Windows 10 build19044 or19045"
+                    },
+                    {
+                        "Name":  "Restore-not-blocked-by-build-guard",
+                        "ExpectedReject":  false,
+                        "Rejected":  false,
+                        "Passed":  true,
+                        "Message":  null
+                    },
+                    {
+                        "Name":  "Source-9c74ca43",
+                        "ExpectedReject":  false,
+                        "Rejected":  false,
+                        "Passed":  true,
+                        "Message":  null
+                    },
+                    {
+                        "Name":  "Source-f476b20e",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "Unsupported Microsoft core; no settings changed"
+                    },
+                    {
+                        "Name":  "Source-00000000",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "Unsupported Microsoft core; no settings changed"
+                    },
+                    {
+                        "Name":  "Layout-KBD106.DLL",
+                        "ExpectedReject":  false,
+                        "Rejected":  false,
+                        "Passed":  true,
+                        "Message":  null
+                    },
+                    {
+                        "Name":  "Layout-kbd106.dll",
+                        "ExpectedReject":  false,
+                        "Rejected":  false,
+                        "Passed":  true,
+                        "Message":  null
+                    },
+                    {
+                        "Name":  "Layout-KBDUS.DLL",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires the existing working KBD106 configuration"
+                    },
+                    {
+                        "Name":  "Layout-custom.dll",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "This candidate requires the existing working KBD106 configuration"
+                    },
+                    {
+                        "Name":  "Core-original-True",
+                        "ExpectedReject":  false,
+                        "Rejected":  false,
+                        "Passed":  true,
+                        "Message":  null
+                    },
+                    {
+                        "Name":  "Core-original-False",
+                        "ExpectedReject":  true,
+                        "Rejected":  true,
+                        "Passed":  true,
+                        "Message":  "Start from original Microsoft component registration"
+                    }
+                ]
+}

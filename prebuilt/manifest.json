@@ -1,0 +1,9 @@
+{
+  "file": "JisCoreRouter64.dll",
+  "sha256": "042cb9fe0f4d6d510d17444730614e3dc16c3fb7414a18e12c7da13ac321199b",
+  "source": "src/router/JisCoreRouter.c",
+  "compiler": "Zig 0.14.1",
+  "architecture": "x86_64",
+  "signed": false,
+  "physicalAcceptance": "User reported successful v2 installation and all post-restart checklist items normal"
+}

@@ -1,0 +1,4490 @@
+{
+  "redacted": true,
+  "method": "Only case labels, expected/scans and input observations retained; host paths, process IDs, account/ACL/state data omitted",
+  "groups": [
+    {
+      "source": "native-tests-physical01-64.json",
+      "cases": 23,
+      "passed": 23,
+      "results": [
+        {
+          "name": "bopomofo-nihao",
+          "expected": "你好",
+          "scan": [
+            31,
+            159,
+            22,
+            150,
+            4,
+            132,
+            46,
+            174,
+            38,
+            166,
+            4,
+            132,
+            28,
+            156
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-27-shift-False",
+          "expected": "；",
+          "scan": [
+            29,
+            39,
+            167,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-27-shift-False",
+          "expected": "；",
+          "scan": [
+            29,
+            39,
+            157,
+            167
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-27-shift-True",
+          "expected": "＋",
+          "scan": [
+            29,
+            42,
+            39,
+            167,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＋",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-27-shift-True",
+          "expected": "＋",
+          "scan": [
+            29,
+            42,
+            39,
+            157,
+            170,
+            167
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＋",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-28-shift-False",
+          "expected": "：",
+          "scan": [
+            29,
+            40,
+            168,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "：",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-28-shift-False",
+          "expected": "：",
+          "scan": [
+            29,
+            40,
+            157,
+            168
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "：",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-28-shift-True",
+          "expected": "＊",
+          "scan": [
+            29,
+            42,
+            40,
+            168,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＊",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-28-shift-True",
+          "expected": "＊",
+          "scan": [
+            29,
+            42,
+            40,
+            157,
+            170,
+            168
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＊",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-1a-shift-False",
+          "expected": "＠",
+          "scan": [
+            29,
+            26,
+            154,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＠",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-1a-shift-False",
+          "expected": "＠",
+          "scan": [
+            29,
+            26,
+            157,
+            154
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＠",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-1a-shift-True",
+          "expected": "｀",
+          "scan": [
+            29,
+            42,
+            26,
+            154,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "｀",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-1a-shift-True",
+          "expected": "｀",
+          "scan": [
+            29,
+            42,
+            26,
+            157,
+            170,
+            154
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "｀",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-07-shift-True",
+          "expected": "＆",
+          "scan": [
+            29,
+            42,
+            7,
+            135,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＆",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-07-shift-True",
+          "expected": "＆",
+          "scan": [
+            29,
+            42,
+            7,
+            157,
+            170,
+            135
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＆",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-09-shift-True",
+          "expected": "（",
+          "scan": [
+            29,
+            42,
+            9,
+            137,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "（",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-09-shift-True",
+          "expected": "（",
+          "scan": [
+            29,
+            42,
+            9,
+            157,
+            170,
+            137
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "（",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-0a-shift-True",
+          "expected": "）",
+          "scan": [
+            29,
+            42,
+            10,
+            138,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "）",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-0a-shift-True",
+          "expected": "）",
+          "scan": [
+            29,
+            42,
+            10,
+            157,
+            170,
+            138
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "）",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "base-key-then-control-overlap",
+          "expected": "",
+          "scan": [
+            39,
+            29,
+            167,
+            157,
+            1,
+            129
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "bopomofo-after-modifier-tests",
+          "expected": "你好",
+          "scan": [
+            31,
+            159,
+            22,
+            150,
+            4,
+            132,
+            46,
+            174,
+            38,
+            166,
+            4,
+            132,
+            28,
+            156
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "english-JIS-shift-number-row",
+          "expected": "!\"#$%&'()",
+          "scan": [
+            42,
+            2,
+            130,
+            3,
+            131,
+            4,
+            132,
+            5,
+            133,
+            6,
+            134,
+            7,
+            135,
+            8,
+            136,
+            9,
+            137,
+            10,
+            138,
+            11,
+            139,
+            170
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "!\"#$%&'()",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "english-JIS-punctuation",
+          "expected": "-^@[;:],./\\\\",
+          "scan": [
+            12,
+            140,
+            13,
+            141,
+            26,
+            154,
+            27,
+            155,
+            39,
+            167,
+            40,
+            168,
+            43,
+            171,
+            51,
+            179,
+            52,
+            180,
+            53,
+            181,
+            115,
+            243,
+            125,
+            253
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "-^@[;:],./\\\\",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "native-tests-physical01-32.json",
+      "cases": 23,
+      "passed": 23,
+      "results": [
+        {
+          "name": "bopomofo-nihao",
+          "expected": "你好",
+          "scan": [
+            31,
+            159,
+            22,
+            150,
+            4,
+            132,
+            46,
+            174,
+            38,
+            166,
+            4,
+            132,
+            28,
+            156
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-27-shift-False",
+          "expected": "；",
+          "scan": [
+            29,
+            39,
+            167,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-27-shift-False",
+          "expected": "；",
+          "scan": [
+            29,
+            39,
+            157,
+            167
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-27-shift-True",
+          "expected": "＋",
+          "scan": [
+            29,
+            42,
+            39,
+            167,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＋",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-27-shift-True",
+          "expected": "＋",
+          "scan": [
+            29,
+            42,
+            39,
+            157,
+            170,
+            167
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＋",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-28-shift-False",
+          "expected": "：",
+          "scan": [
+            29,
+            40,
+            168,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "：",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-28-shift-False",
+          "expected": "：",
+          "scan": [
+            29,
+            40,
+            157,
+            168
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "：",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-28-shift-True",
+          "expected": "＊",
+          "scan": [
+            29,
+            42,
+            40,
+            168,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＊",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-28-shift-True",
+          "expected": "＊",
+          "scan": [
+            29,
+            42,
+            40,
+            157,
+            170,
+            168
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＊",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-1a-shift-False",
+          "expected": "＠",
+          "scan": [
+            29,
+            26,
+            154,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＠",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-1a-shift-False",
+          "expected": "＠",
+          "scan": [
+            29,
+            26,
+            157,
+            154
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＠",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-1a-shift-True",
+          "expected": "｀",
+          "scan": [
+            29,
+            42,
+            26,
+            154,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "｀",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-1a-shift-True",
+          "expected": "｀",
+          "scan": [
+            29,
+            42,
+            26,
+            157,
+            170,
+            154
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "｀",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-07-shift-True",
+          "expected": "＆",
+          "scan": [
+            29,
+            42,
+            7,
+            135,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＆",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-07-shift-True",
+          "expected": "＆",
+          "scan": [
+            29,
+            42,
+            7,
+            157,
+            170,
+            135
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "＆",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-09-shift-True",
+          "expected": "（",
+          "scan": [
+            29,
+            42,
+            9,
+            137,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "（",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-09-shift-True",
+          "expected": "（",
+          "scan": [
+            29,
+            42,
+            9,
+            157,
+            170,
+            137
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "（",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ctrl-0a-shift-True",
+          "expected": "）",
+          "scan": [
+            29,
+            42,
+            10,
+            138,
+            170,
+            157
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "）",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "release-modifier-first-0a-shift-True",
+          "expected": "）",
+          "scan": [
+            29,
+            42,
+            10,
+            157,
+            170,
+            138
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "）",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "base-key-then-control-overlap",
+          "expected": "",
+          "scan": [
+            39,
+            29,
+            167,
+            157,
+            1,
+            129
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "bopomofo-after-modifier-tests",
+          "expected": "你好",
+          "scan": [
+            31,
+            159,
+            22,
+            150,
+            4,
+            132,
+            46,
+            174,
+            38,
+            166,
+            4,
+            132,
+            28,
+            156
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "english-JIS-shift-number-row",
+          "expected": "!\"#$%&'()",
+          "scan": [
+            42,
+            2,
+            130,
+            3,
+            131,
+            4,
+            132,
+            5,
+            133,
+            6,
+            134,
+            7,
+            135,
+            8,
+            136,
+            9,
+            137,
+            10,
+            138,
+            11,
+            139,
+            170
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "!\"#$%&'()",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "english-JIS-punctuation",
+          "expected": "-^@[;:],./\\\\",
+          "scan": [
+            12,
+            140,
+            13,
+            141,
+            26,
+            154,
+            27,
+            155,
+            39,
+            167,
+            40,
+            168,
+            43,
+            171,
+            51,
+            179,
+            52,
+            180,
+            53,
+            181,
+            115,
+            243,
+            125,
+            253
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "-^@[;:],./\\\\",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "notepad-physical01-results.json",
+      "cases": 13,
+      "passed": 13,
+      "results": [
+        {
+          "name": "typing-abc",
+          "expected": "abc",
+          "passed": true,
+          "observed": {
+            "text": "abc",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "copy-paste",
+          "expected": "abcabc",
+          "passed": true,
+          "observed": {
+            "text": "abcabc",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "undo-paste",
+          "expected": "",
+          "passed": true,
+          "observed": {
+            "text": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-shift-number-row",
+          "expected": "!\"#$%&'()",
+          "passed": true,
+          "observed": {
+            "text": "!\"#$%&'()",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-punctuation",
+          "expected": "-^@[;:],./\\\\",
+          "passed": true,
+          "observed": {
+            "text": "-^@[;:],./\\\\",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Bopomofo-nihao",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "text": "你好",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-with-symbol-27-False",
+          "expected": "你好；",
+          "passed": true,
+          "observed": {
+            "text": "你好；",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-with-symbol-28-False",
+          "expected": "你好：",
+          "passed": true,
+          "observed": {
+            "text": "你好：",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-with-symbol-28-True",
+          "expected": "你好＊",
+          "passed": true,
+          "observed": {
+            "text": "你好＊",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-with-symbol-1a-False",
+          "expected": "你好＠",
+          "passed": true,
+          "observed": {
+            "text": "你好＠",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-with-symbol-07-True",
+          "expected": "你好＆",
+          "passed": true,
+          "observed": {
+            "text": "你好＆",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-with-symbol-09-True",
+          "expected": "你好（",
+          "passed": true,
+          "observed": {
+            "text": "你好（",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-with-symbol-0a-True",
+          "expected": "你好）",
+          "passed": true,
+          "observed": {
+            "text": "你好）",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "winforms-physical01-64.json",
+      "cases": 10,
+      "passed": 10,
+      "results": [
+        {
+          "name": "Bopomofo-nihao",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-27-False",
+          "expected": "你好；",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-28-False",
+          "expected": "你好：",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好：",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-28-True",
+          "expected": "你好＊",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好＊",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-1a-False",
+          "expected": "你好＠",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好＠",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-shift-row",
+          "expected": "!\"#$%&'()",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "!\"#$%&'()",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-punctuation",
+          "expected": "-^@[;:],./\\\\",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "-^@[;:],./\\\\",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "shortcut-abc",
+          "expected": "abc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "abc",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "copy-paste",
+          "expected": "abcabc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "abcabc",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Bopomofo-after-shortcuts",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "winforms-physical01-32.json",
+      "cases": 10,
+      "passed": 10,
+      "results": [
+        {
+          "name": "Bopomofo-nihao",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-27-False",
+          "expected": "你好；",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-28-False",
+          "expected": "你好：",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好：",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-28-True",
+          "expected": "你好＊",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好＊",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-1a-False",
+          "expected": "你好＠",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好＠",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-shift-row",
+          "expected": "!\"#$%&'()",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "!\"#$%&'()",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-punctuation",
+          "expected": "-^@[;:],./\\\\",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "-^@[;:],./\\\\",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "shortcut-abc",
+          "expected": "abc",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "copy-paste",
+          "expected": "abcabc",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abcabc",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Bopomofo-after-shortcuts",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "winforms-physical01-elevated-64.json",
+      "cases": 10,
+      "passed": 10,
+      "results": [
+        {
+          "name": "Bopomofo-nihao",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-27-False",
+          "expected": "你好；",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-28-False",
+          "expected": "你好：",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好：",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-28-True",
+          "expected": "你好＊",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好＊",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "composition-symbol-1a-False",
+          "expected": "你好＠",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好＠",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-shift-row",
+          "expected": "!\"#$%&'()",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "!\"#$%&'()",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-punctuation",
+          "expected": "-^@[;:],./\\\\",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "-^@[;:],./\\\\",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "shortcut-abc",
+          "expected": "abc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "abc",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "copy-paste",
+          "expected": "abcabc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "abcabc",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Bopomofo-after-shortcuts",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "symbols-managed5794-64.json",
+      "cases": 66,
+      "passed": 66,
+      "results": [
+        {
+          "scan": "0x2",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "！",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x3",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＂",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x4",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＃",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x5",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＄",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x6",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "％",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＆",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x8",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＇",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x9",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "（",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xa",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "）",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "－",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＝",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＾",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "～",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＠",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "｀",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "【",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "｛",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "；",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＋",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "：",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＊",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "】",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "｝",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＼",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "｜",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＼",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＿",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "，",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＜",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "。",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "＞",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "／",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "？",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好！",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x3",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＂",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x4",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＃",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x5",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＄",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x6",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好％",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＆",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x8",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＇",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x9",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好（",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xa",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好）",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好－",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＝",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＾",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好～",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＠",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好｀",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好【",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好｛",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好；",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＋",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好：",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＊",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好】",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好｝",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＼",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好｜",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＼",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＿",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好，",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＜",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好。",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好＞",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好／",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "你好？",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "symbols-managed5794-english-32.json",
+      "cases": 66,
+      "passed": 66,
+      "results": [
+        {
+          "scan": "0x2",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "！",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x3",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＂",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x4",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＃",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x5",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＄",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x6",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "％",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＆",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x8",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＇",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x9",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "（",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xa",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "）",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "－",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＝",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＾",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "～",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＠",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "｀",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "【",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "｛",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "；",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＋",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "：",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＊",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "】",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "｝",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＼",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "｜",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＼",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＿",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "，",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＜",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "。",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＞",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "／",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "？",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "！",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x3",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＂",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x4",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＃",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x5",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＄",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x6",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "％",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＆",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x8",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＇",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x9",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "（",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xa",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "）",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "－",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＝",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＾",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "～",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＠",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1a",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "｀",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "【",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "｛",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "；",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＋",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "：",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＊",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "】",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "｝",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＼",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "｜",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＼",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＿",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "，",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＜",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "。",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "＞",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "／",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "？",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "bopomofo-managed5794-64-positions.json",
+      "cases": 37,
+      "passed": 37,
+      "results": [
+        {
+          "expected": "ㄅ",
+          "scan": "0x2",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄅ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄆ",
+          "scan": "0x10",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄆ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄇ",
+          "scan": "0x1e",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄇ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄈ",
+          "scan": "0x2c",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄈ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄉ",
+          "scan": "0x3",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄉ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄊ",
+          "scan": "0x11",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄊ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄋ",
+          "scan": "0x1f",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄋ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄌ",
+          "scan": "0x2d",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄌ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄍ",
+          "scan": "0x12",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄍ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄎ",
+          "scan": "0x20",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄎ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄏ",
+          "scan": "0x2e",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄏ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄐ",
+          "scan": "0x13",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄐ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄑ",
+          "scan": "0x21",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄑ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄒ",
+          "scan": "0x2f",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄒ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄓ",
+          "scan": "0x6",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄓ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄔ",
+          "scan": "0x14",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄔ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄕ",
+          "scan": "0x22",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄕ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄖ",
+          "scan": "0x30",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄖ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄗ",
+          "scan": "0x15",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄗ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄘ",
+          "scan": "0x23",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄘ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄙ",
+          "scan": "0x31",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄙ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄧ",
+          "scan": "0x16",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄧ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄨ",
+          "scan": "0x24",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄨ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄩ",
+          "scan": "0x32",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄩ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄚ",
+          "scan": "0x9",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄚ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄛ",
+          "scan": "0x17",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄛ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄜ",
+          "scan": "0x25",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄜ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄝ",
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄝ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄞ",
+          "scan": "0xa",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄞ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄟ",
+          "scan": "0x18",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄟ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄠ",
+          "scan": "0x26",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄠ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄡ",
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄡ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄢ",
+          "scan": "0xb",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄢ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄣ",
+          "scan": "0x19",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄣ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄤ",
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄤ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄥ",
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄥ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "expected": "ㄦ",
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "ㄦ",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "phrases-managed5794-64.json",
+      "cases": 4,
+      "passed": 4,
+      "results": [
+        {
+          "name": "first-and-second-tone",
+          "expected": "中文",
+          "scans": [
+            6,
+            36,
+            53,
+            57,
+            36,
+            25,
+            7
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "中文",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "fourth-and-first-tone",
+          "expected": "注音",
+          "scans": [
+            6,
+            36,
+            5,
+            22,
+            25,
+            57
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "注音",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "fourth-and-third-tone",
+          "expected": "日本",
+          "scans": [
+            48,
+            5,
+            2,
+            25,
+            4
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "日本",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "third-and-neutral-tone",
+          "expected": "我的",
+          "scans": [
+            36,
+            23,
+            4,
+            3,
+            37,
+            8
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "我的",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "modes-managed5794-32.json",
+      "cases": 19,
+      "passed": 19,
+      "results": [
+        {
+          "name": "right-Ctrl-Shift-27-False",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "；",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "right-Ctrl-Shift-27-True",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＋",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "right-Ctrl-Shift-28-False",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "：",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "right-Ctrl-Shift-28-True",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＊",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "right-Ctrl-Shift-1a-False",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＠",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "right-Ctrl-Shift-07-True",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "＆",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-Shift0-no-extra-symbol",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-JIS-non-Bopomofo-punctuation",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "^@[:]\\\\",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-to-English",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-JIS-double-quote",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "\"",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "real-English-JIS-shift-row",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "!\"#$%&'()",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "real-English-JIS-punctuation",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "-^@[;:],./\\\\",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-text-before-Ctrl-colon",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "abc",
+            "composition": "：",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-text-after-Ctrl-colon",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "：abc",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-to-Chinese",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-Space-toggle-width",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "actual-character-width",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "Ａ",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-Space-restore-width",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Bopomofo-after-mode-tests",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "shift-symbols-managed5794-32.json",
+      "cases": 21,
+      "passed": 21,
+      "results": [
+        {
+          "scan": "0x2",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "!",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x3",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "\"",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x4",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "#",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x5",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "$",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x6",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "%",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "&",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x8",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "'",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x9",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "(",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xa",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": ")",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xc",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "=",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0xd",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "~",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x1b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "{",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x27",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "+",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x28",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "*",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x2b",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "}",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x33",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "<",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x34",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": ">",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x35",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "?",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x73",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "_",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "scan": "0x7d",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "|",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "JIS-backquote-prefix-semicolon",
+          "passed": true,
+          "observed": {
+            "bits": 32,
+            "text": "",
+            "composition": "；",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "space-keys-physical01.json",
+      "cases": 9,
+      "passed": 9,
+      "results": [
+        {
+          "name": "English-a-space-b",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-composition-space",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好 ",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-composition-space",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好 ",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-composition-space",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好 ",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-space-width",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-space-width",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-space-width",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "space-keys-physical01-restored.json",
+      "cases": 3,
+      "passed": 3,
+      "results": [
+        {
+          "name": "English-a-space-b",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "ab",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "ab",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "space-keys-physical01-reinstalled.json",
+      "cases": 9,
+      "passed": 9,
+      "results": [
+        {
+          "name": "English-a-space-b",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-composition-space",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好 ",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-composition-space",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好 ",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Chinese-composition-space",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好 ",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-space-width",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-space-width",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-space-width",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "",
+            "composition": "",
+            "conversion": 9,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "native-tests-physical02-installed-64.json",
+      "cases": 4,
+      "passed": 4,
+      "results": [
+        {
+          "name": "bopomofo-nihao",
+          "expected": "你好",
+          "scan": [
+            31,
+            159,
+            22,
+            150,
+            4,
+            132,
+            46,
+            174,
+            38,
+            166,
+            4,
+            132,
+            28,
+            156
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "modifier-first-semicolon",
+          "expected": "；",
+          "scan": [
+            29,
+            39,
+            157,
+            167
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "；",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "modifier-first-plus",
+          "expected": "＋",
+          "scan": [
+            29,
+            42,
+            39,
+            157,
+            170,
+            167
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "＋",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "ordinary-nihao-after-release",
+          "expected": "你好",
+          "scan": [
+            31,
+            159,
+            22,
+            150,
+            4,
+            132,
+            46,
+            174,
+            38,
+            166,
+            4,
+            132,
+            28,
+            156
+          ],
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "availability-physical02-restored-64.json",
+      "cases": 3,
+      "passed": 3,
+      "results": [
+        {
+          "name": "Chinese",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-English",
+          "expected": "abc",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "abc",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "Shift-Chinese-again",
+          "expected": "你好",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "你好",
+            "composition": "",
+            "conversion": 1,
+            "imeOpen": true
+          }
+        }
+      ]
+    },
+    {
+      "source": "space-keys-physical02-restored.json",
+      "cases": 3,
+      "passed": 3,
+      "results": [
+        {
+          "name": "English-a-space-b",
+          "scan": "0x39",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "a b",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x79",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "ab",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        },
+        {
+          "name": "English-a-space-b",
+          "scan": "0x7b",
+          "passed": true,
+          "observed": {
+            "bits": 64,
+            "text": "ab",
+            "composition": "",
+            "conversion": 0,
+            "imeOpen": true
+          }
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "name": "Restore-existing-format1-state",
+      "passed": true
+    },
+    {
+      "name": "V1-reproduces-reported-error-before-mutation",
+      "passed": true
+    },
+    {
+      "name": "String-injected-rollback",
+      "passed": true
+    },
+    {
+      "name": "String-install",
+      "passed": true
+    },
+    {
+      "name": "String-exact-restore",
+      "passed": true
+    },
+    {
+      "name": "ExpandString-injected-rollback",
+      "passed": true
+    },
+    {
+      "name": "ExpandString-install",
+      "passed": true
+    },
+    {
+      "name": "ExpandString-exact-restore",
+      "passed": true
+    },
+    {
+      "name": "Combined-install-from-expandable-original",
+      "passed": true
+    }
+  ]
+}
