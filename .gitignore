@@ -10,3 +10,25 @@ Physical-JIS-report-*.json
 *.vhd*
 *.iso
 *.clixml
+
+# Local secrets and credentials
+.env
+.env.*
+.aws/
+.ssh/
+.azure/
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+private-login*.json
+
+# System DLLs and private recovery/diagnostic records
+[Ii][Mm][Tt][Cc][Cc][Oo][Rr][Ee].[Dd][Ll][Ll]
+[Kk][Bb][Dd]*.[Dd][Ll][Ll]
+ImTcCore-JIS-Table7-*.dll
+IME-recovery-report-*.json
+Keyboard-report-*.txt
+Trial-status-*.txt
+install-state.json
