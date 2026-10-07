@@ -19,47 +19,46 @@ JIS Bopomofo 提供 Windows 原生修正：繼續使用微軟注音，在注音�
 
 中／英模式指微軟注音內的切換；另外的 `ENG / US` 輸入配置不在修正範圍內。
 
-## 快速開始
+## 安裝
 
-### 取得安裝包
+安裝前請先確認[系統相容性](docs/COMPATIBILITY.md)。
 
-在本專案的 **Releases** 頁面下載 `jis-bopomofo-<版本>-windows-x64.zip`。若尚無 Release，可從原始碼在專案根目錄執行以下指令，產生同樣的安裝包：
+1. 從本專案的 Releases 下載安裝包，解壓縮到新資料夾。
+2. 右鍵點選 `Install.cmd`，選擇「以系統管理員身分執行」。
+3. 顯示 `Completed` 後重新啟動 Windows。
+
+完整安裝會一併將「無變換」與「變換」改成空白鍵。若只需要這項功能，執行 `Install-Spaces.cmd` 即可。
+
+安裝後可在記事本測試注音、中英切換與符號。詳細測試清單在安裝包的 `Test-results.txt`。
+
+### 還原與檢查
+
+| 操作 | 執行檔 |
+|---|---|
+| 還原全部設定 | `Restore.cmd` |
+| 只還原兩側空白鍵 | `Restore-Spaces.cmd` |
+| 檢查安裝狀態 | `Check.cmd` |
+| 產生診斷報告 | `Diagnose.cmd` |
+
+還原時也需以管理員身分執行，完成後重新啟動。
+
+## 自行編譯
+
+下載原始碼並準備 Zig 0.14.1。在專案根目錄開啟 PowerShell，執行以下指令；將 Zig 路徑換成自己的安裝位置：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File src/router/Build-Router.ps1 -ZigExecutable C:\Tools\zig\zig.exe -OutputDirectory build/router
+```
+
+編譯完成的 DLL 位於 `build/router/JisCoreRouter64.dll`。使用自行編譯的 DLL 安裝前，需完成驗證並更新雜湊設定，詳細步驟見[開發指南](docs/DEVELOPMENT.md)。
+
+若要使用專案附帶的已驗證 DLL 製作安裝包，安裝 Python 3.9 以上版本後執行：
 
 ```powershell
 python tools/package.py
 ```
 
-需要 Python 3.9 或更新版本，不需要額外 Python 套件。產物位於 `dist/`。下載原始碼後，請先打包；`windows/Install.cmd` 不是完整安裝包入口。
-
-### 安裝前確認
-
-| 條件 | 完整修正要求 |
-|---|---|
-| 系統 | Windows 10 x64，build 19044 或 19045 |
-| 輸入法 | 已安裝微軟注音 |
-| 鍵盤配置 | `00000404` 的 `Layout File` 已為 `KBD106.DLL` |
-| 注音核心 | 原版 `IMTCCORE.DLL` SHA256 必須與[相容性清單](docs/COMPATIBILITY.md)完全相符 |
-| 權限 | 系統管理員；安裝完成後重新啟動 |
-
-安裝器會檢查這些條件。不符合時請回報相容性需求；不要刪除版本或雜湊檢查強行安裝。
-
-### 套用與還原
-
-1. 解壓安裝包至可寫入的新資料夾。
-2. 右鍵 `Install.cmd`，選擇「以系統管理員身分執行」。
-3. 顯示 `Completed` 後儲存工作並重新啟動 Windows。
-4. 在記事本驗證注音、Shift 中／英切換、Ctrl 符號與兩側空白鍵；完整清單見包內 `Test-results.txt`。
-
-| 操作 | 執行檔 |
-|---|---|
-| 完整安裝，包含兩側空白鍵 | `Install.cmd` |
-| 只安裝兩側空白鍵 | `Install-Spaces.cmd` |
-| 還原兩項功能 | `Restore.cmd` |
-| 只還原兩側空白鍵 | `Restore-Spaces.cmd` |
-| 檢查安裝及執行狀態 | `Check.cmd` |
-| 產生登錄與備份診斷 | `Diagnose.cmd` |
-
-安裝、還原均需管理員權限，完成後重新啟動。檢查腳本不修改系統設定。
+安裝包會產生在 `dist/` 資料夾。
 
 ## 相容性與限制
 

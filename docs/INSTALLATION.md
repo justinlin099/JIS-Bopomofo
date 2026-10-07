@@ -1,10 +1,10 @@
 # 安裝、驗證與還原
 
-## 取得完整安裝包
+## 下載與解壓縮
 
-下載 Release 的 `jis-bopomofo-<版本>-windows-x64.zip`，或在原始碼根目錄執行 `python tools/package.py`。不要從 GitHub 原始碼中的 `windows/` 直接安裝：Router DLL 在 `prebuilt/`，打包工具會將必要檔案放在同一層。
+從 Releases 下載安裝包，解壓縮至可寫入的本機資料夾。安裝腳本使用 Windows PowerShell 5.1，CMD 入口會選擇 64-bit PowerShell。
 
-解壓至可寫入的本機資料夾。安裝腳本使用 Windows PowerShell 5.1，CMD 入口會選擇 64-bit PowerShell。
+自行編譯與製作安裝包的步驟見[開發指南](DEVELOPMENT.md)。
 
 ## 完整安裝
 
