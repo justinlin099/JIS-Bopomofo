@@ -62,7 +62,7 @@ python tools/package.py
 
 ## 相容性與限制
 
-已驗證 Windows 10 Enterprise LTSC 2021 VM（19044.6456）及一台 Fujitsu LIFEBOOK U 系列 JIS 筆電（Windows 10 Pro 22H2，19045.6466）。其他品牌若符合相同系統與掃描碼條件，可進行驗證；目前沒有所有 JIS 筆電皆相容的結論。
+已驗證 Windows 10 Enterprise LTSC 2021 VM（19044.6456）及一台 Fujitsu LIFEBOOK U 系列 JIS 筆電（Windows 10 Pro 22H2，19045.6466）。歡迎大家測試更多 Windows 版本與電腦型號，並透過 Issues 回報測試結果，幫助我們擴大支援範圍。
 
 - 完整修正依賴特定微軟注音二進位內容。Windows 更新後可能回到原版注音，符號修正不再生效。
 - 若 Router 本身遭安全政策封鎖或被移除，可能無法載入注音。詳細限制見[跨版本評估](docs/CROSS-VERSION-REVIEW.md)。
